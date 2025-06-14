@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocaConnect Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=New+York&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
